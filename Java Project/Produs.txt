@@ -1,0 +1,46 @@
+package Mainn;
+import java.io.Serializable;
+
+public class Produs implements Serializable {
+	private String Categorie;
+	private String Nume;
+	private int Cantitate;
+	
+	public Produs() {
+	}
+	
+	public Produs(String categorie, String nume, int cantitate) {
+		Categorie=categorie;
+		Nume=nume;
+		Cantitate=cantitate;
+	}
+
+	public String getCategorie() {
+		return Categorie;
+	}
+
+	public void setCategorie(String categorie) {
+		Categorie = categorie;
+	}
+
+	public String getNume() {
+		return Nume;
+	}
+
+	public void setNume(String nume) {
+		Nume = nume;
+	}
+
+	public int getCantitate() {
+		return Cantitate;
+	}
+
+	public void setCantitate(int cantitate) {
+		Cantitate = cantitate;
+	}
+	
+	public String toString() {
+        return "Produs [Categorie=" + Categorie + ", Nume=" + Nume + ", Pret=" + Cantitate + "]";
+    }
+
+}

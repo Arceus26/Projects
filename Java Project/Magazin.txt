@@ -1,0 +1,50 @@
+package Mainn;
+
+import java.util.List;
+
+public class Magazin {
+	
+	private String Nume;
+	private List<Produs> Produse;
+	
+	public Magazin() {
+	}
+	
+	public Magazin(String nume, List<Produs> produse) {
+		Nume=nume;
+		Produse=produse;
+	}
+
+	public String getNume() {
+		return Nume;
+	}
+
+	public void setNume(String nume) {
+		Nume = nume;
+	}
+
+	public List<Produs> getProduse() {
+		return Produse;
+	}
+
+	public void setProduse(List<Produs> produse) {
+		Produse = produse;
+	}
+
+	
+	public String toString() {
+        StringBuilder result = new StringBuilder("Magazin [Nume=" + Nume + ", Produse=[");
+        
+        for (Produs produs : Produse) {
+            result.append(produs).append(",");
+        }
+        
+        if (!Produse.isEmpty()) {
+            result.setLength(result.length() - 2);
+        }
+            
+        result.append("]]");
+
+        return result.toString();
+    }
+}
