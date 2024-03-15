@@ -8,9 +8,12 @@ using namespace std;
 // lexicografic o permutare a unei multimi total ordonate S si cea ce urmeaza, pentru ambele cazuri fiind verificat mai intai daca
 // aceasta permutare exista.
 
-//Exemplu:
-//Introduceti elementele multimii S: a b b
-
+// Exemplu:
+// Introduceti elementele multimii S: a b c
+// Introduceti o permutarea lui S: b c a
+// Rang-ul permutarii: 3
+// Permutarea precedenta este: b a c
+// Permutarea urmatoare este: c a b
 
 
 // Funtie pentru a transforma literele in numere (a=1,b=2...).
@@ -260,7 +263,7 @@ for(auto& nr : Nw1) {
 }
 cout << endl;
     }
-
+    
 }
 return 0;
 }
