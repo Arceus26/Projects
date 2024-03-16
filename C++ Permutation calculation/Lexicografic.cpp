@@ -5,7 +5,7 @@
 using namespace std;
 
 // Acest mini-proiect in C ofera o metoda pentru calcularea rangului permutarilor atat ale literelor, cat si ale cifrelor. De asemenea, ilustreaza permutarea 
-// anterioara, precum si următoarea din punct de vedere lexicografic ale unei multimi total ordonate S, verificand mai intai daca astfel de permutari exista.
+// anterioara, precum si urmatoarea din punct de vedere lexicografic ale unei multimi total ordonate S, verificand mai intai daca astfel de permutari exista.
 
 // Exemplu:
 // Introduceti elementele multimii S: a b c
