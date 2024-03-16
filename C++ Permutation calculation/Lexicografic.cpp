@@ -4,9 +4,8 @@
 
 using namespace std;
 
-// Aceast mini proiect determina o metoda de calcul al permutarilor de litere cat si de cifre si exemplifica permutarea ce precede
-// lexicografic o permutare a unei multimi total ordonate S si cea ce urmeaza, pentru ambele cazuri fiind verificat mai intai daca
-// aceasta permutare exista.
+// Acest mini-proiect in C ofera o metoda pentru calcularea rangului permutarilor atat ale literelor, cat si ale cifrelor. De asemenea, ilustreaza permutarea 
+// anterioara, precum si următoarea din punct de vedere lexicografic ale unei multimi total ordonate S, verificand mai intai daca astfel de permutari exista.
 
 // Exemplu:
 // Introduceti elementele multimii S: a b c
