@@ -6,3 +6,5 @@ A Desktop Java project that allows the user to manage the stock of an electronic
 
 Summer Practice – Evolution of Desertified Areas in Romania
 Held at ICAM, this project focused on identifying and analyzing desertified areas in Romania using GIS data and Sentinel-2 satellite imagery. It involved hands-on experience in Python-based data processing, testing spectral formulas to detect affected zones, and contributed to developing essential skills in remote sensing and geospatial analysis.
+
+Centralized Blockchain Bridge – A project involving the development of a web-based bridge between two local blockchains: Ethereum and Sui. It includes smart contracts on both chains for a custom token and supports wallet authentication and token transfers via burn-and-mint logic. The application connects MetaMask and Suiet, enabling cross-chain token operations.
