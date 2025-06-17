@@ -1,0 +1,8 @@
+EmailScraper is a collaborative web-based project proposed by Nokia, designed to streamline email management. It connects to local inboxes to extract key email details such as sender, body, date, and subject, and includes advanced filtering and CSV export options. The application offers features like data analysis by sender, date, and activity time, the ability to generate detailed and sharable PDF reports, and scheduled email scraping at midnight based on custom filters. Additionally, it includes a "Contact Us" page to facilitate user feedback and communication.
+
+Electronics Shop is a responsive e-commerce website developed using HTML, CSS, JavaScript, PHP, and MySQL. It includes user registration and login, dynamic product listings with images, prices, and descriptions from the database, and shopping cart functionality. Customers can leave and view product reviews to assist other buyers. The website is mobile-friendly, ensuring a smooth shopping experience on both phones and tablets.
+
+A Desktop Java project that allows the user to manage the stock of an electronics store, allowing them to add, delete items, and update item quantities. Additionally, the user can search for products by name and display all items in the store or only those with a low stock level.
+
+Summer Practice – Evolution of Desertified Areas in Romania
+Held at ICAM, this project focused on identifying and analyzing desertified areas in Romania using GIS data and Sentinel-2 satellite imagery. It involved hands-on experience in Python-based data processing, testing spectral formulas to detect affected zones, and contributed to developing essential skills in remote sensing and geospatial analysis.
